@@ -53,6 +53,8 @@ button {
     color: #f9faf8 ;
     border-radius: 5px;
     width: 80px;
+    border: none;
+    padding: 4px;
 }
 
 .big-img {
@@ -120,4 +122,33 @@ button {
     text-align: right;
     font-size: 20px;
     font-weight: bold;
+}
+
+.call {
+    margin: 50px;
+    padding: 30px 200px 30px 200px;
+    width: 700px;
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+
+.Sign-up {
+    border: 2px solid #f9faf8;
+    text-align: center;
+    padding: 10px;
+}
+
+.call-content1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 30px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
 }
